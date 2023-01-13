@@ -483,16 +483,16 @@ nav ul li {
 .slayer {
 	background: transparent;
 	position: absolute;
-	height: 100%;
-	width: 100%;
+	height: 115;
+	width: 167;
 	transition: 0.5s;
 
 }
 .slayer:hover {
 	background: rgba(165,55,253,0.7);
 	position: absolute;
-	height: 100%;
-	width: 100%;
+	height: 115;
+	width: 167;
 
 }
 
