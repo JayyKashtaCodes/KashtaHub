@@ -1,7 +1,7 @@
 $( document ).ready(function(){
     var userLang = navigator.language || navigator.userLanguage;
     if (userLang == "en") {
-        break;
+         window.location.href = "/KashtaHub/"
     }
     else if(userLang == "ru"){
        window.location.href = "/KashtaHub/ru/"
