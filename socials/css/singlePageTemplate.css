@@ -492,16 +492,16 @@ row-gap: 300px;
 .slayer {
 	background: transparent;
 	position: relative;
-	height: 115;
-	width: 167;
+	height: 10%;
+	width: 10%;
 	transition: 0.5s;
 
 }
 .slayer:hover {
 	background: rgba(165,55,253,0.7);
 	position: relative;
-	height: 115;
-	width: 167;
+	height: 10%;
+	width: 10%;
 
 }
 
