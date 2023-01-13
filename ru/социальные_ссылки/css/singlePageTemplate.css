@@ -479,6 +479,29 @@ nav ul li {
 }
 }
 
+/* Grid Images */
+.grid {
+	display: grid;
+
+grid-template-columns: 2fr 2fr 2fr;
+
+column-gap: 30px;
+row-gap: 152px;
+}
+
+/* Hover Layer */
+.slayer {
+	position: relative;
+	transition: 0.7s;
+
+}
+.slayer:hover {
+	position: relative;
+	height: 125%;
+	width: 125%;
+
+}
+
 /* Dropdown Button */
 .dropbtn {
 	background-color: #04AA6D;

@@ -485,23 +485,20 @@ nav ul li {
 
 grid-template-columns: 2fr 2fr 2fr;
 
-column-gap: 300px;
-row-gap: 300px;
+column-gap: 30px;
+row-gap: 152px;
 }
+
 /* Hover Layer */
 .slayer {
-	background: transparent;
 	position: relative;
-	height: 10%;
-	width: 10%;
-	transition: 0.5s;
+	transition: 0.7s;
 
 }
 .slayer:hover {
-	background: rgba(165,55,253,0.7);
 	position: relative;
-	height: 10%;
-	width: 10%;
+	height: 125%;
+	width: 125%;
 
 }
 
