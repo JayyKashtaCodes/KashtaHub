@@ -485,8 +485,6 @@ nav ul li {
 	position: absolute;
 	height: 24px;
 	width: 24px;
-	top: 0;
-	left: 0;
 	transition: 0.5s;
 
 }
@@ -495,8 +493,6 @@ nav ul li {
 	position: absolute;
 	height: 24px;
 	width: 24px;
-	top: 0;
-	left: 0;
 
 }
 
