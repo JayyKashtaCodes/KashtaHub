@@ -1,8 +1,7 @@
-@import 'https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css';
 @charset "UTF-8";
 /* Body */
 body {
-	font-family: source-sans-pro;
+	font-family: 'Segoe UI Emoji';
 	background-color: #f2f2f2;
 	margin-top: 0px;
 	margin-right: 0px;
@@ -22,7 +21,7 @@ body {
 /* Navigation */
 header {
 	width: 100%;
-	height: 5%;
+	height: 6%;
 	background-color: #52bad5;
 	border-bottom: 1px solid #2C9AB7;
 }
