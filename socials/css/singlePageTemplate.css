@@ -482,7 +482,7 @@ nav ul li {
 /* Hover Layer */
 .slayer {
 	background: transparent;
-	position: absolute;
+	position: relative;
 	height: 115;
 	width: 167;
 	transition: 0.5s;
@@ -490,7 +490,7 @@ nav ul li {
 }
 .slayer:hover {
 	background: rgba(165,55,253,0.7);
-	position: absolute;
+	position: relative;
 	height: 115;
 	width: 167;
 
