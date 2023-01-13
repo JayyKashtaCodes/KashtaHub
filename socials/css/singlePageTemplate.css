@@ -485,7 +485,8 @@ nav ul li {
 
 grid-template-columns: 2fr 2fr 2fr;
 
-column-gap: 30px;
+column-gap: 300px;
+row-gap: 300px;
 }
 /* Hover Layer */
 .slayer {
