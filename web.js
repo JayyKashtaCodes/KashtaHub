@@ -15,10 +15,6 @@ $( document ).ready(function(){
 // Cache
 
 var solutions = [
-    function () { history.go(0); },
-    function () { location.href = location.href; },
-    function () { location.href = location.pathname; },
-    function () { location.replace(location.pathname); },
     function () { location.reload(forceGet); },
 ];
 
