@@ -519,3 +519,20 @@ nav ul li {
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+  /* button */
+  .button {
+	background: #2ecc71;
+	border: 0;
+	color: white;
+	font-weight: bold;
+	font-family: "Monaco", monospace;
+	padding: 10px;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.5s ease;
+	margin: 2px;
+  }
+  .button:hover {
+	background: #27ae60;
+  }
