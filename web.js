@@ -15,7 +15,6 @@ $( document ).ready(function(){
 // Cache
 
 var solutions = [
-    function () { location.reload(); },
     function () { history.go(0); },
     function () { location.href = location.href; },
     function () { location.href = location.pathname; },
