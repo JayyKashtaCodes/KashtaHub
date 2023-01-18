@@ -478,6 +478,19 @@ nav ul li {
 }
 }
 
+/* Hover Layer */
+.slayer {
+	position: relative;
+	transition: 0.7s;
+
+}
+.slayer:hover {
+	position: relative;
+	height: 125%;
+	width: 125%;
+
+}
+
 /* Grid Images */
 .grid {
 	display: grid;
