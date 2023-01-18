@@ -478,6 +478,16 @@ nav ul li {
 }
 }
 
+/* Grid Images */
+.grid {
+	display: grid;
+
+grid-template-columns: 2fr 2fr 2fr;
+
+column-gap: 30px;
+row-gap: 152px;
+}
+
 /* Dropdown Button */
 .dropbtn {
 	background-color: #04AA6D;
