@@ -1,58 +1,68 @@
 <!doctype html>
 <html lang="en-US">
-  <head>
-    <script type="text/javascript">
-     document.write('<scr'+'ipt src="/KashtaHub/ru/web.js?'+Math.random()+'" type="text/javascript"></scr'+'ipt>');
-    </script>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Kashta Main</title>
-    <link href="css/singlePageTemplate.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/modern-normalize.css">
-    <style>
-      #footer {
-          position: fixed;
-          padding: 10px 10px 0px 10px;
-          bottom: 0;
-          width: 100%;
-          /* Height of the footer*/
-          height: 40px;
-          background: grey;
-      }
-  </style>
+    <head>
+        <link rel="preload" href="css/wimage/back.mp4">
+        <script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+        <script src="js/web2.js"></script>
+        <Title>Домашняя страница</Title>
+        <link href="css/kashta.css" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <video id="background-video" class="responsive-video out" autoplay loop muted>
+            <source src="css/wimage/back.mp4" type="video/mp4">
+        </video>
     </head>
-<body>
-<!-- Main Container -->
-<div class="container"> 
-  <!-- Navigation -->
-  <header> <a href="/KashtaHub/ru/">
-    <h4 class="logo">Социальный клуб Кашта</h4>
-    </a>
-    <nav>
-      <!--Languages-->
-      <div class="dropdown">
-        <button class="dropbtn">Language/Язык</button>
-        <div style="text-align:center" class="dropdown-content">
-          <a href="/KashtaHub/">🇬🇧English</a>
-          <a href="/KashtaHub/ru/">🇷🇺Русский</a>
-        </div>
-      </div>
-      <ul>
-        <li><a href="/KashtaHub/ru/мои_летние_модификации_автомобиля/">Мои летние модификации автомобиля</a></li>
-        <li> <a href="/KashtaHub/ru/социальные_ссылки/">Социальные ссылки</a></li>
-      </ul>
-    </nav>
-  </header>
-	
-	<!--Socials-->
-<div style="text-align:center" class="temp"><section>
-<h1>Временная домашняя страница - проверьте ссылки на заголовки</h1>.
-<p>Проверьте ссылки на заголовки</p>
-</section></div>
+    <body class="banner mybox">  
+        <!--NAVIGATION BAR-->
+        <nav class="navbar navback">
 
-  <!-- Copyrights Section -->
-<div id="footer" class="copyright">&copy;2023- <strong>JayyKashtaCodes</strong></div>
-<!-- Main Container Ends -->
-</body>
+            <!--SPACERS-->
+            <div></div>
+            <div></div>
+                
+            <!--Website Logo-->
+                <a href="/KashtaHub/ru/"><img src="css/wimage/logo.gif" class="logo"></a>
+                
+                <!--LANGUAGE-->
+                <ul>
+                    <li><a href="#">Language/Язык</a>
+                        <ul>
+                            <li><a href="/KashtaHub/en/">🇬🇧 English</a></li>
+                            <li><a href="/KashtaHub/ru/">🇷🇺 Русский</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!--SPACERS FOR NAV BAR-->
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <!--WEBSITE SECTIONS-->
+                <ul>
+                  <li><a href="/KashtaHub/ru/">Главная</a></li>
+                  <li><a href="/KashtaHub/ru/социальные_ссылки/">О сайте/Социальные медиа</a></li>
+                  <li><a href="#">Модификации игры</a>
+                    <ul>
+                      <li><a href="/KashtaHub/ru/мои_летние_модификации_автомобиля/">Мои летние модификации автомобиля</a></li>
+                      <li><a href="/KashtaHub/ru/Модификации_ArmA_3/">Модификации ArmA 3</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+        <!--PAGE CONTENT-->
+        <section class="mybox">
+            <div class="content modpageheading">
+                <h2>Приветствую вас, сумасшедшие русские</h2>
+                <h4>Просмотрите разделы на панели навигации выше</h4>
+            </div>
+        </section>    
+    </body>
+    <footer class="copyright" id="spanYear">
+    </footer>
 </html>
