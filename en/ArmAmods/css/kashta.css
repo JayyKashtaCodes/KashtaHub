@@ -207,10 +207,10 @@ row-gap: 50px;
     height: 230px;
 }
 
-.card3{
-    background-image: url();
-    width: 200px;
-    height: 230px;
+.nzfcard{
+    background-image: url(modimages/nzf_en.png);
+    width: 400px;
+    height: 200px;
 }
 
 .card4{
