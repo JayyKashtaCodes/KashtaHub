@@ -1,64 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://jayykashtacodes.github.io/KashtaHub/"
-        xmlns:xhtml="https://jayykashtacodes.github.io/KashtaHub/index.html">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jayykashtacodes.github.io/KashtaHub/en/index.html</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://jayykashtacodes.github.io/KashtaHub/ru/index.html"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru_RU"
-               href="https://jayykashtacodes.github.io/KashtaHub/ru/index.html"/>
+    <loc>https://jayykashtacodes.github.io/KashtaHub/en/</loc>
     <xhtml:link
                rel="alternate"
                hreflang="en"
-               href="https://jayykashtacodes.github.io/KashtaHub/en/index.html"/>
+               href="https://jayykashtacodes.github.io/KashtaHub/en/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://jayykashtacodes.github.io/KashtaHub/ru/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru-RU"
+               href="https://jayykashtacodes.github.io/KashtaHub/ru/"/>
   </url>
   <url>
-    <loc>https://jayykashtacodes.github.io/KashtaHub/en/socials/index.html</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://jayykashtacodes.github.io/KashtaHub/ru/социальные_ссылки/index.html"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru_RU"
-               href="https://jayykashtacodes.github.io/KashtaHub/ru/социальные_ссылки/index.html"/>
+    <loc>https://jayykashtacodes.github.io/KashtaHub/en/socials/</loc>
     <xhtml:link
                rel="alternate"
                hreflang="en"
-               href="https://jayykashtacodes.github.io/KashtaHub/en/socials/index.html"/>
+               href="https://jayykashtacodes.github.io/KashtaHub/en/socials/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://jayykashtacodes.github.io/KashtaHub/ru/социальные_ссылки/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru-RU"
+               href="https://jayykashtacodes.github.io/KashtaHub/ru/социальные_ссылки/"/>
   </url>
   <url>
-    <loc>https://jayykashtacodes.github.io/KashtaHub/en/ArmAmods/index.html</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://jayykashtacodes.github.io/KashtaHub/ru/Модификации_ArmA_3/index.html"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru_RU"
-               href="https://jayykashtacodes.github.io/KashtaHub/ru/Модификации_ArmA_3/index.html"/>
+    <loc>https://jayykashtacodes.github.io/KashtaHub/en/mscmods/</loc>
     <xhtml:link
                rel="alternate"
                hreflang="en"
-               href="https://jayykashtacodes.github.io/KashtaHub/en/ArmAmods/index.html"/>
+               href="https://jayykashtacodes.github.io/KashtaHub/en/mscmods/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://jayykashtacodes.github.io/KashtaHub/ru/мои_летние_модификации_автомобиля/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru-RU"
+               href="https://jayykashtacodes.github.io/KashtaHub/ru/мои_летние_модификации_автомобиля/"/>
   </url>
   <url>
-    <loc>https://jayykashtacodes.github.io/KashtaHub/en/mscmods/index.html</loc>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru"
-               href="https://jayykashtacodes.github.io/KashtaHub/ru/мои_летние_модификации_автомобиля/index.html"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="ru_RU"
-               href="https://jayykashtacodes.github.io/KashtaHub/ru/мои_летние_модификации_автомобиля/index.html"/>
+    <loc>https://jayykashtacodes.github.io/KashtaHub/en/ArmAmods/</loc>
     <xhtml:link
                rel="alternate"
                hreflang="en"
-               href="https://jayykashtacodes.github.io/KashtaHub/en/mscmods/index.html"/>
+               href="https://jayykashtacodes.github.io/KashtaHub/en/ArmAmods/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://jayykashtacodes.github.io/KashtaHub/ru/Модификации_ArmA_3/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru-RU"
+               href="https://jayykashtacodes.github.io/KashtaHub/ru/Модификации_ArmA_3/"/>
   </url>
 </urlset>
