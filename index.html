@@ -2,6 +2,29 @@
 <html>
     <head>
         <title>The KashtaHub</title>
+        <script type="module">
+            // Import the functions you need from the SDKs you need
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
+            import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-analytics.js";
+            // TODO: Add SDKs for Firebase products that you want to use
+            // https://firebase.google.com/docs/web/setup#available-libraries
+          
+            // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            const firebaseConfig = {
+              apiKey: "AIzaSyCOIIefNTpt21q5SF-N9XXwPSXb_3tiHLI",
+              authDomain: "kashtahub.firebaseapp.com",
+              projectId: "kashtahub",
+              storageBucket: "kashtahub.appspot.com",
+              messagingSenderId: "193541895384",
+              appId: "1:193541895384:web:c96ff3d86187b7ab6013ad",
+              measurementId: "G-3RGWWCDRZX"
+            };
+          
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+            const analytics = getAnalytics(app);
+        </script>
         <meta name="description" content="The KashtaHub for all KashtaCodes Content." />
         <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
