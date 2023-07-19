@@ -1,0 +1,454 @@
+/* Root Setup */
+:root {
+  background-image: url(../Assets/backembed.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(59, 59, 56, .75);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Noto%20Sans);
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+@font-face {
+  font-family: GameIcon;
+  src: url(../Assets/gameicons.woff);
+}
+
+@font-face {
+  font-family: NotoColorEmojiLimited;
+  unicode-range: U+1F1E6-1F1FF;
+  src: url(https://raw.githack.com/googlefonts/noto-emoji/main/fonts/NotoColorEmoji.ttf);
+}
+
+@font-face {
+  font-family: NotoSansAdlam;
+  src: url(https://cdn.jsdelivr.net/gh/notofonts/notofonts.github.io/fonts/NotoSansAdlam/full/variable-ttf/NotoSansAdlam[wght].ttf);
+}
+
+* {
+    font-family: 'GameIcon', 'NotoColorEmojiLimited', 'NotoSansAdlam', 'Noto Sans', 'Open Sans',  sans-serif;
+    font-size: medium;
+    padding: 0, 0;
+    margin: 0, 0;
+    z-index: 0;
+}
+
+.content-box h4 a{
+  text-decoration: none;
+  color: rgb(44, 11, 85);
+}
+
+.content-box h3{
+  text-decoration: underline;
+  color: rgb(0 0 0 );
+      text-shadow:
+      1px 1px 11px #fff,
+      1px 1px 12px #0ff,
+      1px 1px 13px #0ff,
+      1px 1px 14px #f0f,
+      1px 1px 15px #f0f;
+}
+
+.content-box h4 a:hover{
+  text-decoration: blueviolet wavy underline;
+  color: rgb(113, 53, 185);
+    /* Glow Effect */
+      text-shadow:
+      1px 1px 11px #0ff,
+      1px 1px 12px #0ff,
+      1px 1px 13px #f0f,
+      1px 1px 14px #f0f;
+}
+
+/****************************/
+/** Icons for Игровые моды **/
+.icon-trace .path1:before {
+  content: "\e90f";
+  color: #d2201b;
+}
+.icon-trace .path2:before {
+  content: "\e910";
+  color: #cf9f38;
+  margin-left: -0.8408203125em;
+}
+.icon-trace .path3:before {
+  content: "\e911";
+  color: #b2b5b1;
+  margin-left: -0.8408203125em;
+}
+.icon-trace .path4:before {
+  content: "\e912";
+  color: #02070b;
+  margin-left: -0.8408203125em;
+}
+.icon-trace .path5:before {
+  content: "\e913";
+  color: #c38d6a;
+  margin-left: -0.8408203125em;
+}
+.icon-trace .path6:before {
+  content: "\e914";
+  color: #192e46;
+  margin-left: -0.8408203125em;
+}
+/****/
+.icon-garry-s-mod .path1:before {
+  content: "\e901";
+  color: #000;
+}
+.icon-garry-s-mod .path2:before {
+  content: "\e902";
+  color: #1194f0;
+  margin-left: -1em;
+}
+.icon-garry-s-mod .path3:before {
+  content: "\e903";
+  color: #fff;
+  margin-left: -1em;
+}
+/****/
+.icon-msc .path1:before {
+  content: "\e904";
+  color: #022160;
+}
+.icon-msc .path2:before {
+  content: "\e905";
+  color: #dde221;
+  margin-left: -1.4658203125em;
+}
+.icon-msc .path3:before {
+  content: "\e906";
+  color: #dae320;
+  margin-left: -1.4658203125em;
+}
+.icon-msc .path4:before {
+  content: "\e907";
+  color: #77e320;
+  margin-left: -1.4658203125em;
+}
+.icon-msc .path5:before {
+  content: "\e908";
+  color: #d7fa1c;
+  margin-left: -1.4658203125em;
+}
+.icon-msc .path6:before {
+  content: "\e909";
+  color: #f6f7f5;
+  margin-left: -1.4658203125em;
+}
+.icon-msc .path7:before {
+  content: "\e90a";
+  color: #fedd0d;
+  margin-left: -1.4658203125em;
+}
+.icon-msc .path8:before {
+  content: "\e90b";
+  color: #fc633b;
+  margin-left: -1.4658203125em;
+}
+.icon-msc .path9:before {
+  content: "\e90c";
+  color: #73e321;
+  margin-left: -1.4658203125em;
+}
+.icon-msc .path10:before {
+  content: "\e90d";
+  color: #ebd33f;
+  margin-left: -1.4658203125em;
+}
+.icon-msc .path11:before {
+  content: "\e90e";
+  color: #4e943d;
+  margin-left: -1.4658203125em;
+}
+
+/**************************/
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color:  rgb(160, 131, 196);
+  font-family: Arial;
+}
+
+/* Logo */
+.glow{
+  box-shadow:
+  inset 0 0 50px #fff,      /* inner white */
+  inset 20px 0 80px #f0f,   /* inner left magenta short */
+  inset -20px 0 80px #0ff,  /* inner right cyan short */
+  inset 20px 0 300px #f0f,  /* inner left magenta broad */
+  inset -20px 0 300px #0ff, /* inner right cyan broad */
+  0 0 50px #fff,            /* outer white */
+  -10px 0 80px #f0f,        /* outer left magenta */
+  10px 0 80px #0ff;         /* outer right cyan */
+}
+.logo{
+  float:right;
+  padding: 0.50rem 1rem;
+  height: 3rem;
+  width: 5rem;
+}
+.logo1{
+  float:right;
+  padding: 0.50rem 1rem;
+  height: 3rem;
+  width: 4rem;
+}
+
+.logo1:hover{
+  cursor: default; /* Change cursor when hovering over it. */
+}
+
+.logo:hover{
+    cursor: default; /* Change cursor when hovering over it. */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 1rem;
+  color: black;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  text-decoration: none;
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(205, 175, 221);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    /* Glow Effect */
+    box-shadow:
+    inset 0 0 5px #fff,
+    inset 2px 0 8px #f0f,
+    inset -2px 0 8px #0ff,
+    inset 2px 0 30px #f0f,
+    inset -2px 0 30px #0ff,
+      0 0 5px #fff,
+      -1px 0 8px #f0f,
+      1px 0 8px #0ff;
+}
+
+/****************************/
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: black;
+  padding: 1.5rem 1rem;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(160, 131, 196);
+  min-width: 10rem;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: rgb(209, 189, 230);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/****************************/
+/* Main Body */
+
+body {
+  background: none;
+  margin: 150px, 150px;
+  padding: 150px, 150px;
+}
+
+.content-box {
+  background-color: rgba(160, 131, 196, 0.9);
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+   /* Glow Effect */
+   box-shadow:
+   inset 0 0 5px #fff,
+   inset 2px 0 8px #f0f,
+   inset -2px 0 8px #0ff,
+   inset 2px 0 30px #f0f,
+   inset -2px 0 30px #0ff,
+     0 0 5px #fff,
+     -1px 0 8px #f0f,
+     1px 0 8px #0ff;
+}
+
+.header-box {
+  padding: 1rem, 1rem;
+  margin: 1rem, 1rem;
+  background-color: rgba(160, 131, 196, 0.5);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.box {
+    background-color: rgba(245,	245,	245, 0.75);
+    border-radius: 5px;
+    padding: 2rem, 2rem;
+    margin: 2rem, 2rem;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/****************************/
+/* Grid Images */
+.grid {
+	display: grid;
+
+grid-template-columns: 2fr 2fr 2fr;
+
+column-gap: 0px;
+row-gap: 50px;
+}
+
+/****************************/
+/** Mod Cards **/
+/* mod card */
+.card{
+
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.emr{
+  background-image: url(./modimages/emr.png);
+  width: 400px;
+  height: 200px;
+}
+
+.mrp{
+  background-image: url(./modimages/mrp.png);
+  width: 400px;
+  height: 200px;
+}
+
+.mms{
+  background-image: url(./modimages/mms.png);
+  width: 200px;
+  height: 200px;
+}
+
+/****************************/
+/** Cool Header **/
+.coolheader{
+  text-align: center;
+  font-size: 70px;
+  font-weight: 600;
+  color: #553c9a;
+  background-clip: text;
+  -webkit-background-clip: text;
+/* Glow Effect */
+  text-shadow:
+  1px 1px 10px #0ff,
+  1px 1px 11px #0ff,
+  1px 1px 12px #0ff,
+  1px 1px 13px #f0f,
+  1px 1px 14px #f0f,
+  1px 1px 15px #f0f,
+  1px 1px 20px #f0f;
+}
+
+/* Scroll Bar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 0.75rem;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(10, 10, 10);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(160, 131, 196);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/** Mobile Phone **/
+@media screen and (max-width: 480px) {
+  .show-on-desktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .hide-on-desktop {
+    display: none;
+  }
+}
+
+/****************************/

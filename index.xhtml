@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+
+      <!-- head is used to set website settings for SEO -->
+      <meta charset="UTF-8"/>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Kashta Hub</title> <!-- Title -->
+      <!---->
+
+      <!-- Preload Scripts -->
+      <script rel="preload" src="https://code.jquery.com/jquery-3.6.4.min.js"/>
+      <script rel="preload" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"/>
+      <script rel="preload" src="./js/java.js"/>
+      <script rel="preload" src="./js/youtube.js"/>
+      <script rel="preload" src="https://polyfill.io/v3/polyfill.min.js?features=es6"/>
+      <script id="MathJax-script" rel="preload" src="./js/mathjax.js"/>
+      <!---->
+
+      <!-- Set Webpage icon -->
+      <link rel="apple-touch-icon" sizes="180x180" href="./Assets/apple-touch-icon.png"/>
+      <link rel="icon" type="image/png" sizes="32x32" href="./Assets/favicon-32x32.png"/>
+      <link rel="icon" type="image/png" sizes="16x16" href="./Assets/favicon-16x16.png"/>
+      <link rel="icon" href="./Assets/icon.svg" type="image/svg+xml"/>
+      <link rel="manifest" href="./Assets/site.webmanifest"/>
+      <!---->
+  </head>
+
+  <!-- body is used for main webpage -->
+  <body>
+    <script type="text/javascript">
+        const lang = navigator.language;
+        const langRedirected = localStorage.getItem("languageRedirected");
+        
+        if (lang.includes('en')) {
+        localStorage.setItem("languageRedirected", true);
+        window.location = './en/index.xhtml'
+        }
+
+        else if (lang.includes('ru')) {
+        localStorage.setItem("languageRedirected", true);
+        window.location = './ru/index.xhtml'
+        }
+
+        else {
+        window.location = './en/index.xhtml'
+        }
+    </script>
+  </body>
+  <!---->
+</html>
