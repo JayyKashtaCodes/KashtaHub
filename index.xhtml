@@ -44,6 +44,11 @@
         window.location = './ru/index.xhtml'
         }
 
+        else if (lang.includes('pl')) {
+        localStorage.setItem("languageRedirected", true);
+        window.location = './pl/index.xhtml'
+        }
+
         else {
         window.location = './en/index.xhtml'
         }
