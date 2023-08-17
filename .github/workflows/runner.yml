@@ -1,3 +1,2 @@
               - name: On-demand self-hosted AWS EC2 runner for GitHub Actions
                 uses: machulav/ec2-github-runner@v2
-            
